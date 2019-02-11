@@ -1,0 +1,19 @@
+{
+  "name": "word-wheel",
+  "version": "0.0.1",
+  "description": "Word Wheel puzzle state calculator & dictionary scanner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ww": "bin/cli.js"
+  },
+  "author": "Harry Gallagher <harrygallagher4@gmail.com> (https://github.com/harrygallagher4)",
+  "license": "WTFPL",
+  "dependencies": {
+    "arr-rotate": "^1.0.0",
+    "chalk": "^2.4.2",
+    "lodash": "^4.17.11"
+  }
+}
