@@ -11,6 +11,7 @@
   },
   "author": "Harry Gallagher <harrygallagher4@gmail.com> (https://github.com/harrygallagher4)",
   "license": "WTFPL",
+  "repository": "github:harrygallagher4/word-wheel",
   "dependencies": {
     "arr-rotate": "^1.0.0",
     "chalk": "^2.4.2",
