@@ -1,6 +1,8 @@
 # word-wheel
 Word Wheel puzzle state calculator and dictionary scanner
 
+![word wheel][]
+
 ## Usage
 This module installs the `ww` command which either accepts a four letter word 
 and computes the word wheel state for that word, or accepts the `-s, --scan` 
@@ -38,4 +40,13 @@ To scan the dictionary (words.json)
 3: zila
 ```
 
+## What the hell is this?
+I got this "word wheel" game for christmas this year and found it pretty interesting. The word wheel is four wooden wheels that each have the alphabet on them, and the goal is to rotate them to create multiple words at the same time. It's actually *really* hard. Anyway, I thought it would be interesting to write a little program to compute the state of the wheel given a word and then run a dictionary through that and see how many words it's possible to make at the same time. Apparently four is the maximum, but that also depends on the dictionary you use. 
+
+Also, I found it interesting that one of the four-word states (drip, guls, mary, octa) contains the words octa and guls (the plural of gul) which is defined as:
+```
+Gul n. 1. a large octagonal design derived from the shape of a rose, a motif on Oriental rugs.
+```
+
 [ww pear]: https://i.imgur.com/Z0nA5bt.png
+[word wheel]: https://i.imgur.com/PI22nHy.png
